@@ -10,7 +10,7 @@ The Book Review App is a full-stack application using React and Express that all
 
 ## Setup Instructions
 - Update Database URL to your own PSQL database URL. DATABASE_URL=your-own-PSQL-database-url
-- This link is located in server/.env file
+- This link is located in server folder, .env file (server/.env)
 
 ## Project Overview
 
