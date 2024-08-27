@@ -2,6 +2,16 @@
 
 The Book Review App is a full-stack application using React and Express that allows users to search for books, view book details, like and dislike books as well as to review books. 
 
+## Technologies Used
+- **Front-End**: React, CSS
+- **Back-End**: Express, Node.js
+- **Database**: PostgreSQL
+- **API**: Google Books API
+
+## Setup Instructions
+- Update Database URL to your own PSQL database URL. DATABASE_URL=your-own-PSQL-database-url
+- This link is located in server/.env
+
 ## Project Overview
 
 This application allows users to:
@@ -46,16 +56,4 @@ This application allows users to:
   - Users can add a review to a book from the book details page. Users can also view the reviews they have written as a list on the "Reviews" page.
 ![Review Screenshot](https://imgur.com/28omgLu.png)
 ![Reviews Page Screenshot](https://imgur.com/lEiiP7T.png)
-
-## Technologies Used
-
-- **Front-End**: React, CSS
-- **Back-End**: Express, Node.js
-- **Database**: PostgreSQL
-- **API**: Google Books API
-
-## Setup Instructions
-- Update Database URL to your own PSQL database URL. DATABASE_URL=your-own-PSQL-database-url
-- This link is located in server/.env
-
 
