@@ -1,0 +1,143 @@
+.book-details {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-text {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.book-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.book-actions .btn-primary {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 45px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.book-actions .btn-primary:hover {
+    background-color: #218838;
+}
+
+.book-actions .btn-secondary {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 45px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.book-actions .btn-secondary:hover {
+    background-color: #c82333;
+}
+
+.comment-form {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.comment-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.comment-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cc00ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+    background-color: #0056b3;
+}
+
+.btn-back {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #5a6268;
+}
+
+.btn-back:active {
+    background-color: #545b62;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
+
+.alert-message {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    background-color: #ffe6e6;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
