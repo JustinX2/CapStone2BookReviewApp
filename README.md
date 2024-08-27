@@ -54,6 +54,6 @@ This application allows users to:
 
 - **Add a Review**: 
   - Users can add a review to a book from the book details page. Users can also view the reviews they have written as a list on the "Reviews" page.
-![Review Screenshot](https://imgur.com/28omgLu.png)
+![Review Screenshot](https://i.imgur.com/jM4Ln5R.png)
 ![Reviews Page Screenshot](https://imgur.com/lEiiP7T.png)
 
